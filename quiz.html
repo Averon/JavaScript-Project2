@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Kevin's Kwiz!</title>
+<link rel="stylesheet" type="text/css" href="quiz.css">
+<script src="myscripts.js"></script>
+
+</head>
+
+
+<body>
+<h1>This is best quiz on the internet!</h1>
+
+
+<form id = "quiz" name = "quiz">
+
+
+<p class = "questions">What is the capital of Norway?</p>
+<input id = "textbox" type = "text" name = "question1">
+
+<p class = "tasks">What is the capital of Sweden?<br>
+<input type = "radio" id = "mc" name = "question2" value = "Hartford"> Stockholm<br>
+<input type = "radio" id = "mc" name = "question2" value = "Heartford"> Sofia<br>
+<input type = "radio" id = "mc" name = "question2" value = "Heartford"> London<br>
+<input type = "radio" id = "mc" name = "question2" value = "Heartford"> New York<br>
+</p>
+
+<p class = "questions">Question 3:What is the capital of Germany?</p>
+
+<input type = "radio" id = "mc" name = "question3" value = "Albany"> Berlin<br>
+<input type = "radio" id = "mc" name = "question3" value = "All Benny's"> Bern<br>
+<input type = "radio" id = "mc" name = "question3" value = "All Benny's"> Istanbul<br>
+<input type = "radio" id = "mc" name = "question3" value = "All Benny's"> Oslo<br>
+
+<p class = "questions">Question 4:What is the capital of Australia?</p>
+
+<input type = "radio" id = "mc" name = "question3" value = "Albany"> Plovdiv<br>
+<input type = "radio" id = "mc" name = "question3" value = "All Benny's"> Zurich<br>
+<input type = "radio" id = "mc" name = "question3" value = "All Benny's">Melbourne<br>
+<input type = "radio" id = "mc" name = "question3" value = "All Benny's"> Canberra<br>
+
+
+
+<p class = "questions">Question 5:What is the capital of USA?</p>
+
+<input type = "radio" id = "mc" name = "question3" value = "New York"> New York<br>
+<input type = "radio" id = "mc" name = "question3" value = "Washington"> Washington<br>
+<input type = "radio" id = "mc" name = "question3" value = "Las Vegas"> Las Vegas<br>
+<input type = "radio" id = "mc" name = "question3" value = "Moscow"> Moscow<br>
+
+
+
+<input id = "button" type = "button" value = "I'm finished!" onclick = "smil()">
+
+
+</form>
+
+<div id = "after_submit">
+<p id = "number_correct"></p>
+<p id = "message"></p>
+<img id = "picture">
+</div>
+</body>
+</html>
